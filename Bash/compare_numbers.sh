@@ -1,12 +1,6 @@
 #!/bin/bash
 #decription     	: HackerRank Bash - Compairing Two Numbers
 #author		 				: niklasad1
-#date            	: 2016-12-23
-#version         	: 1.0
-#filename		 			: compare_numbers.sh
-#notes           	: N/A
-#arguments	    	: N/A
-#==============================================================================
 
 read x
 read y

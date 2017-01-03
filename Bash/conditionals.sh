@@ -1,12 +1,6 @@
 #!/bin/bash
-#decription     	: HackerRank Bash - More Conditionals find if a triange is  either "SCALENE" or "EQUILATERAL" or "ISOSCELES"
+#decription     	: HackerRank Bash - More Conditionals
 #author		 				: niklasad1
-#date            	: 2016-12-23
-#version         	: 1.0
-#filename		 			: conditonals.sh
-#notes           	: N/A
-#arguments	    	: N/A
-#==============================================================================
 
 read x
 read y
