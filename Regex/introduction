@@ -1,0 +1,28 @@
+# Matching Specific String  
+# () capture group in regex
+Regex_Pattern = r'(hackerrank)+'
+
+
+# Matching Anything But a Newline 
+# matches only abc.abc.abc.abc    
+Regex_pattern = r"^.{3}\..{3}\..{3}\..{3}$"
+
+
+# Matching Digits & Non-Digits
+# test failed if I used ^ $
+Regex_Pattern = r"(\d{2}\D){2}\d{4}"
+
+
+# Matching Whitespace and Non-Whitespace
+# Whitespace - \n \r \t \f 
+Regex_Pattern = r"(\S{2}(\s)?){3}"
+
+
+# Matching Word & Non-Word Character
+# word matches - a-z, A-Z, 0-9, _
+Regex_Pattern = r"\w{3}\W\w{10}\W\w{3}"
+
+
+# Matching Start & End
+# digit*1 word*4 \n*1
+Regex_Pattern = r"^\d\w{4}\.$"
